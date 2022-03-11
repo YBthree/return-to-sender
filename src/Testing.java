@@ -5,6 +5,7 @@ public class Testing {
 		// TODO Auto-generated method stub
 
 		System.out.println("git pepeg");
+		// Hello from Eclipse -Adam
 	}
 
 }
