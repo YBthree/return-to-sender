@@ -1,9 +1,13 @@
-
+import java.util.ArrayList;
 public class Island {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	int completion;
+	ArrayList<String>localClues;
+	String islandDescription;
+	Officers localOfficers;
+	
+	public Island() {
+		
 	}
 
 }
