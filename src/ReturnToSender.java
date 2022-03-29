@@ -1,10 +1,25 @@
 
 public class ReturnToSender {
+	
+	Player player;
 
 	public static void main(String[] args) {
-		// This is main gameplay class
-		// Main class to be connected to Player, Island, Officer (NPC) classes
+		new ReturnToSender();
+	}
+	
+	ReturnToSender(){
+		boolean playing = true;
+		String command = "";
+		
+		setUp();
+		
+		while (playing) {
+			command = getCommand();
+			playing = parseCommand(command);
+		}
 		
 	}
+	
+	
 
 }

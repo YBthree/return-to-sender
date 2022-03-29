@@ -10,7 +10,8 @@ public class Player {
 	Island currentIsland;
 	
 	public Player() {
-
+		
 	}
+	
 
 }
