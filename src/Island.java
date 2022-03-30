@@ -9,7 +9,7 @@ public class Island {
 	
 
 	static public boolean initIsland() {
-		Island seal = new Island(Officer.allOfficers.get(0));
+		Island seal = new Island(Officer.allOfficers.get("sealMaiden"));
 		return true;
 	}
 }
