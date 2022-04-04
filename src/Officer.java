@@ -1,9 +1,18 @@
 
 public class Officer {
+	public String description; // "Name, Title"
+	public String clue;
+	public String flavour;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public Officer(String des, String clu, String fla) {
+		description = des;
+		clue = clu;
+		flavour = fla;
 	}
-
+	
+	public boolean initOfficers() {
+		Officer engineer = new Officer("some description", "some clue", "some flavour");
+		return true;
+	}
+	
 }

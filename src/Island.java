@@ -5,7 +5,7 @@ public class Island {
 	ArrayList<String>localClues;
 	String islandDescription;
 	Officers localOfficers;
-	
+
 	public Island() {
 		
 	}
